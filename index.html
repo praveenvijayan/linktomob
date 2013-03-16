@@ -1,0 +1,64 @@
+<html>
+  <title>Linktomob :: Share your link quickly</title>
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <script src="scripts/jquery.min.js"></script>
+  <script src="scripts/main.js"></script>
+  <body>
+    <div class="container">
+      <h1 class="logo"><img src="images/logo.png" alt="linktomob"></h1>
+      <form action="/" method="post">
+        <input type="text" class="txtemail" name="email" placeholder="enter your email">
+        <input type="submit" value="Go" class="go">
+      </form>
+      <div class="info">&nbsp;</div>
+      <div id="tour"> <!-- <div class="pointer"></div> --> 
+        <div class="tour-inner">
+          <h2>What is linktomob?</h2>
+          <p>When developing a mobile site or a responsive site or if you wish to view a site on your mobile while viewing it on desktop browser, you have to send the link or type it on the device. Sending link would be difficult if the devices is not your private or if its an office testing device.</p>
+          <p>Philosophy behind linktomob is simple - linkmark a URL and browse it using your linktomob URL. If you are a developer you may face situations where you have to test a URL in multiple devices, iOS, Windows phone, Blackberry, Android etc.. If the URL is complicated, its a Herculean task to type it in some device's browser. Linktomob trying to solve such issue. No need to install any plugin or login to save your link. Click on the bookmarklet and the site will map to your unique linktomob URL. Access it from any device using your linktomob URL, by this way you have to remember only one URL and its simple.</p>
+          <p>
+           <strong> It has 2 parts</strong> <br>
+            1. A bookmarklet <br>
+            2. Your unique URL
+          </p>
+          <h2>How can I use it?</h2>
+          <p>1. Enter your email id. <br>
+             2. Activate your account. <br>
+             3. Drag n Drop linkmark (bookmarklet) into your browser <br>
+             4. Use it to linkmark any site. <br>
+             5. Access the linkmarked sites using your URL on any device.
+          </p>
+          <h2>About URLs</h2>
+          <p>1. Your URL : http://linktomob.appspot.com/{your_id} (eg: http://linktomob.appspot.com/1) <br>
+             2. View links : http://linktomob.appspot.com/{your_id}:{no of link to display} (eg : http://linktomob.appspot.com/1:10)<br>
+             3. Regenerate linkmarklet : http://linktomob.appspot.com/{your_id}/bookmark <br>
+          </p>
+          <h2>About linktomob</h2>
+          <p>Author : <a href="http://decodize.com">Praveen Vijayan</a><br>
+             Twitter : <a href="http://twitter.com/praveen_vijaya">@praveen_vijaya</a> <br>
+             Technology : Python, Google App Engine <br>
+          </p>
+        </div>        
+      </div>
+    </div>
+    <div id="fb-root"></div>
+      <script>
+        // Load the SDK Asynchronously
+        (function(d){
+           var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+           if (d.getElementById(id)) {return;}
+           js = d.createElement('script'); js.id = id; js.async = true;
+           js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+           ref.parentNode.insertBefore(js, ref);
+         }(document));
+      </script>
+      
+      
+    <footer>Developed by <a href="//twitter.com/praveen_vijaya">Praveen Vijayan</a> more on <a href="//decodize.com">Decodize</a> 
+     <a href="//linktomob.appspot.com" class="twitter-share-button" data-dnt="true" data-count="none" data-text="Simple and easy way to share link accross multiple devices!!" data-via="praveen_vijaya" data-hashtags="linktomob">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> 
+  
+    <div class="fb-like"></div>
+    </footer>
+  </body>
+</html>

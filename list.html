@@ -1,0 +1,14 @@
+<html>
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <body>
+    <div class="container list">
+      <h1 class="logo"><img src="images/logo.png" alt="linktomob"></h1>
+      <div class="list-block">
+      	{% for greeting in greetings %}
+			<a href="{{greeting.link}}">{{greeting.title}} - <small> {{greeting.link}} </small></a>
+		{% endfor %}
+      </div>
+	
+    </div>
+  </body>
+</html>
